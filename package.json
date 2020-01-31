@@ -2,7 +2,7 @@
   "name": "the-witch-tattoo-webapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nrs-minhdoan.github.io/the-witch-tattoo-webapp/",
+  "homepage": "https://nrs-minhdoan.github.io/the-witch-tattoo-webapp-/",
   "dependencies": {
     "@material-ui/core": "^3.9.0",
     "@material-ui/icons": "^3.0.2",
