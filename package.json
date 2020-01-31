@@ -1,0 +1,44 @@
+{
+  "name": "the-witch-tattoo-webapp",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://nrs-minhdoan.github.io/the-witch-tattoo-webapp/",
+  "dependencies": {
+    "@material-ui/core": "^3.9.0",
+    "@material-ui/icons": "^3.0.2",
+    "gh-pages": "^2.2.0",
+    "history": "^4.7.2",
+    "lodash": "^4.17.11",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-google-maps": "^9.4.5",
+    "react-loadable": "^5.5.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.3",
+    "react-slick": "^0.23.2",
+    "recompose": "^0.30.0"
+  },
+  "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -b master -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

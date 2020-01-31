@@ -1,0 +1,22 @@
+.card-visit,
+.card-visit-other {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  background-color: #111111d9;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  top: 35%;
+  left: 35%;
+  right: 35%;
+  bottom: 35%;
+}
+
+.card-visit-other {
+  color: #000;
+  background-color: #ffffffd9;
+  box-shadow: 0 5px 15px 0 rgba(255, 255, 255, 0.7);
+}

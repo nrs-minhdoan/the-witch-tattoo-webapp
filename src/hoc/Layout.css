@@ -1,0 +1,66 @@
+.navbar {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.item-navbar,
+.item-navbar-other {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.item-navbar-other {
+  color: #fd79a8;
+}
+
+@keyframes change-color {
+  from {
+    color: #cf8f2a;
+    background-color: #000;
+  }
+  to {
+    color: #000;
+    background-color: #cf8f2a;
+  }
+}
+
+@keyframes change-color-other {
+  from {
+    color: #fd79a8;
+    background-color: #fff;
+  }
+  to {
+    color: #fff;
+    background-color: #fd79a8;
+  }
+}
+
+.item-navbar:hover {
+  animation: change-color 0.5s linear;
+  color: #000;
+  background: #cf8f2a;
+  cursor: pointer;
+}
+
+.item-navbar-other:hover {
+  animation: change-color-other 0.5s linear;
+  color: #fff;
+  background: #fd79a8;
+  cursor: pointer;
+}
+
+.phone-number {
+  font-family: "Poppins";
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 30px;
+  text-align: center;
+}
